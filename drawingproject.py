@@ -8,7 +8,7 @@ def clear():
     txtbar3.delete(0, tk.END)
     txtbar4.delete(0, tk.END)
 
-    canvas.delete("bar1","bar2","bar3","bar4") #Gets rid of the graph
+    canvas.delete("all") #Gets rid of the graph
 
 def graph():
 
